@@ -1,0 +1,45 @@
+﻿@model IEnumerable<UserListApplication.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Users currently registered</h2>
+
+<button class="CreateUser btn btn-primary">Create New</button>
+<div id="CreateUserForm" data-url="@Url.Action("Create", "Users")"></div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.userName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.joined)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.userName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.joined)
+        </td>
+    </tr>
+}
+
+</table>
