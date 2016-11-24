@@ -1,5 +1,5 @@
 # MyDNNApplication
-same project as https://github.com/josephwithay/DNNSupportAnalyst; however code has been modified to be clear, simple, and secure. All tasks are implemented.
+same project as https://github.com/josephwithay/DNNSupportAnalyst; however code has been modified to be clear, simple, and secure. All tasks are implemented.<br/><br/>
 ASP.Net based web application<br/>
 Link to demo video: https://youtu.be/xi_ZmTr2toQ
 <br/>
