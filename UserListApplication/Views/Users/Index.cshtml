@@ -6,9 +6,9 @@
 
 <h2>List of Users currently registered</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+<button class="CreateUser btn btn-primary">Create New</button>
+<div id="CreateUserForm" data-url="@Url.Action("Create", "Users")"></div>
+
 <table class="table">
     <tr>
         <th>

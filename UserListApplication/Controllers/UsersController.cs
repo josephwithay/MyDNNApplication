@@ -51,6 +51,12 @@ namespace UserListApplication.Controllers
             return View();
         }
 
+        /*public PartialViewResult Create()
+        {
+            return PartialView("Create", new User());
+        }*/
+
+
         // POST: Users/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
